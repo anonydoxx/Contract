@@ -1,7 +1,3 @@
-/**
- *Submitted for verification at BscScan.com on 2021-12-21
-*/
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.6.12;
 
@@ -726,7 +722,7 @@ contract NinjaFloki is BEP20, Ownable {
     event SendDividends(uint256 tokensSwapped, uint256 amount);
     event ProcessedDividendTracker(uint256 iterations, uint256 claims,uint256 lastProcessedIndex, bool indexed automatic, uint256 gas, address indexed processor);
 
-    constructor() public BEP20("NinjaFloki", "NJF") {
+    constructor() public BEP20("AnonyDoxx", "ADXX") {
 
     	dividendTracker = new NinjaFlokiDividendTracker();
 
